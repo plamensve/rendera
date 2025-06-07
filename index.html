@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="page-title">Статични сайтове | Минимални разходи за поддръжка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="resource/img/logo.gif" alt="Logo" data-lang="logo-alt" class="logo-img">
+                </div>
+                <button class="mobile-menu-btn" aria-label="Open Menu" data-lang="menu-btn-aria">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link" data-lang="nav-home">Начало</a></li>
+                    <li><a href="#about" class="nav-link" data-lang="nav-about">За нас</a></li>
+                    <li><a href="#services" class="nav-link" data-lang="nav-services">Услуги</a></li>
+                    <li><a href="#gallery" class="nav-link" data-lang="nav-gallery">Портфолио</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn" data-lang="nav-contact">Контакти</a></li>
+                    <li>
+                        <button class="nav-link lang-switch" id="langSwitch">
+                            <span class="current-lang">BG</span>
+                            <i class="fas fa-globe"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-menu">
+                <div class="mobile-menu-logo">
+                    <img src="resource/img/logo.gif" alt="Logo" data-lang="logo-alt">
+                </div>
+                <ul class="mobile-nav-links">
+                    <li><a href="#home" class="mobile-nav-link" data-lang="nav-home">Начало</a></li>
+                    <li><a href="#about" class="mobile-nav-link" data-lang="nav-about">За нас</a></li>
+                    <li><a href="#services" class="mobile-nav-link" data-lang="nav-services">Услуги</a></li>
+                    <li><a href="#gallery" class="mobile-nav-link" data-lang="nav-gallery">Галерия</a></li>
+                    <li><a href="#contact" class="mobile-nav-link" data-lang="nav-contact">Контакти</a></li>
+                    <li>
+                        <button class="mobile-nav-link lang-switch" id="mobileLangSwitch">
+                            <span class="current-lang">BG</span>
+                            <i class="fas fa-globe"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="home" class="hero" style="background-image: url('https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')">
+            <div class="hero-content">
+                <h1 data-lang="hero-title">Превърнете идеите в <span>реалност</span></h1>
+                <p class="hero-main" data-lang="hero-main">Създаваме елегантни статични сайтове, които говорят вместо вас</p>
+                <p class="hero-sub" data-lang="hero-sub">Без месечни такси • Без скрити разходи • Само годишен домейн</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="cta-button primary" data-lang="hero-cta-1">Научете повече</a>
+                    <a href="#target-audience" class="cta-button secondary" data-lang="hero-cta-2">За кого е подходящо?</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 data-lang="about-title">За нас</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="about-content">
+                            <h3 data-lang="mission-title">Нашата мисия</h3>
+                            <p data-lang="mission-text">Създаваме модерни статични сайтове, които са бързи, сигурни и оптимизирани за търсачките. Нашата цел е да предоставим на клиентите си професионално онлайн присъствие без излишни разходи за поддръжка.</p>
+                            <div class="about-features">
+                                <div class="feature">
+                                    <i class="fas fa-bolt"></i>
+                                    <span data-lang="feature-speed">Светкавично бързи</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span data-lang="feature-security">Изключително сигурни</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-search"></i>
+                                    <span data-lang="feature-seo">SEO оптимизирани</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <div class="about-content">
+                            <h3 data-lang="promise-title">Нашето обещание</h3>
+                            <p data-lang="promise-text">Забравете за месечните такси за хостинг и поддръжка. При нас плащате само годишната такса за домейн. Никакви скрити разходи, никакви изненади - само професионален сайт, който работи за вас.</p>
+                            <div class="about-features">
+                                <div class="feature">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <span data-lang="feature-costs">Минимални разходи</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span data-lang="feature-no-monthly">Без месечни такси</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <span data-lang="feature-transparent">Прозрачни условия</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card highlight">
+                        <div class="about-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="about-content">
+                            <h3 data-lang="design-title">Вашият уникален дизайн</h3>
+                            <p data-lang="design-text">Този сайт е изграден като демонстрация на това, което можем да Ви предложим. Вашият краен продукт може да бъде реализиран в същия стил или напълно съобразен с Вашите предпочитания и изисквания.</p>
+                            <div class="about-features">
+                                <div class="feature">
+                                    <i class="fas fa-palette"></i>
+                                    <span data-lang="feature-unique">Уникален дизайн</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-tools"></i>
+                                    <span data-lang="feature-custom">Персонализация</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-star"></i>
+                                    <span data-lang="feature-style">Вашият стил</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="target-audience" class="section" style="background-image: url('https://images.unsplash.com/photo-1586936893354-362ad6ae47ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')">
+            <div class="container">
+                <h2 data-lang="target-title">За кого са подходящи?</h2>
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <div class="icon">👨‍⚕️</div>
+                        </div>
+                        <h3 data-lang="target-health-title">Медицински специалисти</h3>
+                        <ul class="profession-list">
+                            <li data-lang="target-health-1">Лекари</li>
+                            <li data-lang="target-health-2">Стоматолози</li>
+                            <li data-lang="target-health-3">Медицински центрове</li>
+                            <li data-lang="target-health-4">Дентални клиники</li>
+                            <li data-lang="target-health-5">Физиотерапевти</li>
+                            <li data-lang="target-health-6">Психолози</li>
+                            <li data-lang="target-health-7">Фармацевти</li>
+                            <li data-lang="target-health-8">Ветеринари</li>
+                            <li data-lang="target-health-9">Кинезитерапевти</li>
+                            <li data-lang="target-health-10">Логопеди</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <div class="icon">⚖️</div>
+                        </div>
+                        <h3 data-lang="target-law-title">Правни и финансови услуги</h3>
+                        <ul class="profession-list">
+                            <li data-lang="target-law-1">Адвокати</li>
+                            <li data-lang="target-law-2">Нотариуси</li>
+                            <li data-lang="target-law-3">Счетоводители</li>
+                            <li data-lang="target-law-4">Данъчни консултанти</li>
+                            <li data-lang="target-law-5">Финансови съветници</li>
+                            <li data-lang="target-law-6">Застрахователи</li>
+                            <li data-lang="target-law-7">Брокери</li>
+                            <li data-lang="target-law-8">Медиатори</li>
+                            <li data-lang="target-law-9">Одитори</li>
+                            <li data-lang="target-law-10">Бизнес консултанти</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <div class="icon">🎨</div>
+                        </div>
+                        <h3 data-lang="target-creative-title">Креативни професии</h3>
+                        <ul class="profession-list">
+                            <li data-lang="target-creative-1">Фотографи</li>
+                            <li data-lang="target-creative-2">Графични дизайнери</li>
+                            <li data-lang="target-creative-3">Интериорни дизайнери</li>
+                            <li data-lang="target-creative-4">Архитекти</li>
+                            <li data-lang="target-creative-5">Художници</li>
+                            <li data-lang="target-creative-6">Илюстратори</li>
+                            <li data-lang="target-creative-7">Видеографи</li>
+                            <li data-lang="target-creative-8">Музиканти</li>
+                            <li data-lang="target-creative-9">Стилисти</li>
+                            <li data-lang="target-creative-10">Гримьори</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <div class="icon">🛠️</div>
+                        </div>
+                        <h3 data-lang="target-craft-title">Занаятчии и услуги</h3>
+                        <ul class="profession-list">
+                            <li data-lang="target-craft-1">Фризьори</li>
+                            <li data-lang="target-craft-2">Козметици</li>
+                            <li data-lang="target-craft-3">Масажисти</li>
+                            <li data-lang="target-craft-4">Фитнес инструктори</li>
+                            <li data-lang="target-craft-5">Майстори</li>
+                            <li data-lang="target-craft-6">Дърводелци</li>
+                            <li data-lang="target-craft-7">Ключари</li>
+                            <li data-lang="target-craft-8">Шивачи</li>
+                            <li data-lang="target-craft-9">Бижутери</li>
+                            <li data-lang="target-craft-10">Керамици</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="audience-cta glass-effect">
+                    <p data-lang="target-cta">Свържете се с нас за безплатна консултация</p>
+                    <a href="#contact" class="cta-button glow" data-lang="target-cta-button">Започнете сега</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2 data-lang="pricing-title">Прозрачно ценообразуване</h2>
+                <div class="pricing-cards">
+                    <div class="pricing-card starter">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">🚀</div>
+                            <h3 data-lang="pricing-onetime-title">Еднократна инвестиция</h3>
+                            <div class="pricing-price">
+                                <span class="currency" data-lang="pricing-onetime-price">от</span>
+                                <span class="amount">500</span>
+                                <span class="currency" data-lang="pricing-onetime-currency">лв.</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><span class="feature-icon">✨</span> <span data-lang="pricing-feature-unique">Уникален дизайн</span></li>
+                                <li><span class="feature-icon">📱</span> <span data-lang="pricing-feature-mobile">Мобилна версия</span></li>
+                                <li><span class="feature-icon">🔍</span> <span data-lang="pricing-feature-seo">SEO оптимизация</span></li>
+                                <li><span class="feature-icon">📝</span> <span data-lang="pricing-feature-content">Съдържание до 5 страници</span></li>
+                                <li><span class="feature-icon">🎯</span> <span data-lang="pricing-feature-training">Обучение за управление</span></li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="pricing-cta" data-lang="target-cta-button">Започнете сега</a>
+                    </div>
+                    <div class="pricing-card premium">
+                        <div class="pricing-header">
+                            <div class="pricing-icon">⭐</div>
+                            <h3 data-lang="pricing-maintenance">Годишна поддръжка</h3>
+                            <div class="pricing-price">
+                                <span data-lang="pricing-from" class="currency">от</span>
+                                <span class="amount">30</span>
+                                <span data-lang="pricing-currency" class="currency">лв./год.</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><span class="feature-icon">🌐</span> <span data-lang="pricing-domain">Подновяване на домейн</span></li>
+                                <li><span class="feature-icon">🔒</span> <span data-lang="pricing-ssl">SSL сертификат</span></li>
+                                <li><span class="feature-icon">💻</span> <span data-lang="pricing-hosting">Без такси за хостинг</span></li>
+                                <li><span class="feature-icon">🛡️</span> <span data-lang="pricing-security">Защита от хакери</span></li>
+                                <li><span class="feature-icon">📊</span> <span data-lang="pricing-stats">Статистика за посещения</span></li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="pricing-cta" data-lang="pricing-cta">Изберете план</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 data-lang="contact-title">Свържете се с нас</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h3 data-lang="contact-phone">Телефон</h3>
+                        <a href="tel:+359883427273" class="contact-link">(+359) 883 427 273</a>
+                        <p data-lang="contact-phone-hours">Работно време: 09:00 - 18:00</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h3 data-lang="contact-email">Имейл</h3>
+                        <a href="mailto:svetoslavov.dev@gmail.com" class="contact-link">svetoslavov.dev@gmail.com</a>
+                        <p data-lang="contact-email-desc">Очакваме вашето запитване</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🌐</div>
+                        <h3 data-lang="contact-social">Социални мрежи</h3>
+                        <p data-lang="contact-follow">Последвайте ни в социалните мрежи</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/plamen-svetoslavov/" class="social-link" target="_blank" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.facebook.com/plamen.sve" class="social-link" target="_blank" title="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/svetoslavov.dev/" class="social-link" target="_blank" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://wa.me/359883427273" class="social-link" target="_blank" title="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://wa.me/359883427273" class="social-link" target="_blank" title="Viber">
+                                <i class="fab fa-viber"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 data-lang="gallery-title">Нашите проекти</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Проект 1">
+                        <div class="gallery-overlay">
+                            <h3>Корпоративен уебсайт</h3>
+                            <p>Модерен дизайн с фокус върху потребителското изживяване</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Проект 2">
+                        <div class="gallery-overlay">
+                            <h3>Портфолио уебсайт</h3>
+                            <p>Минималистичен дизайн с акцент върху съдържанието</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Проект 3">
+                        <div class="gallery-overlay">
+                            <h3>Бизнес каталог</h3>
+                            <p>Елегантен дизайн с интуитивна навигация</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-waves">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section brand">
+                    <img src="resource/img/logo.gif" alt="Logo" data-lang="logo-alt" class="footer-logo">
+                    <p data-lang="footer-brand-text">Създаваме модерни статични уебсайтове с минимални разходи за поддръжка</p>
+                </div>
+                <div class="footer-section links">
+                    <h3 data-lang="footer-links-title">Бързи връзки</h3>
+                    <div class="footer-links">
+                        <a href="#home" data-lang="nav-home">Начало</a>
+                        <a href="#about" data-lang="nav-about">За нас</a>
+                        <a href="#services" data-lang="nav-services">Услуги</a>
+                        <a href="#gallery" data-lang="nav-gallery">Галерия</a>
+                        <a href="#contact" data-lang="nav-contact">Контакти</a>
+                    </div>
+                </div>
+                <div class="footer-section contact-info">
+                    <h3 data-lang="footer-contact-title">Контакти</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon-1">📧</span>
+                            <a href="mailto:svetoslavov.dev@gmail.com">svetoslavov.dev@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon-1">📱</span>
+                            <a href="tel:+359883427273">(+359) 883 427 273</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section social">
+                    <h3 data-lang="footer-social-title">Социални мрежи</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/plamen-svetoslavov/" class="social-link" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/plamen.sve" class="social-link" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/svetoslavov.dev/" class="social-link" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/359883427273" class="social-link" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="viber://chat?number=+359883427273" class="social-link" target="_blank" title="Viber">
+                            <i class="fab fa-viber"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-lang="footer-copyright">&copy; 2025 Всички права запазени</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="translations.js"></script>
+</body>
+</html> 
